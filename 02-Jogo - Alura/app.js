@@ -1,5 +1,5 @@
 let numSorteados = [];
-let limite = 3;
+let limite = 10;
 let numAlet;
 
 function numAleatorio(){
@@ -10,7 +10,7 @@ function numAleatorio(){
         return numAleatorio();
     }else{
         numSorteados.push(numEscolhido);
-        console.log(numSorteados);
+        
         return numEscolhido;
     }
 
